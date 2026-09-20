@@ -51,7 +51,7 @@ const SIZE_PRESETS: Record<"sm" | "md" | "lg", TabSizeMetrics> = {
 
 export type TabItem = {
   id: string;
-  label: string;
+  label?: string;
   disabled?: boolean;
   width?: number;
   leftIcon?: ReactNode;

@@ -5,9 +5,23 @@
    .dark\:…:where(.dark,.dark *):not(:where(.force-light,.force-light *))
    .light\:…:where(.light,.light *)
    Tailwind v4 defaults dark: to prefers-color-scheme; override to class strategy.
+   Hover matches reference `@media (hover: hover)` so touch devices don’t sticky-hover.
    ============================================================================= */
 @custom-variant dark (&:where(.dark, .dark *):not(:where(.force-light, .force-light *)));
 @custom-variant light (&:where(.light, .light *));
+@custom-variant hover {
+  @media (hover: hover) {
+    &:hover {
+      @slot;
+    }
+  }
+}
+
+/*
+  Keep compound dark:hover / opacity utilities discoverable for the scanner.
+  Reference: 1pu_e_rosuw6w.css → .dark\:hover\:text-white\/80:where(.dark,…)
+*/
+@source inline("dark:hover:text-white dark:hover:text-white/30 dark:hover:text-white/50 dark:hover:text-white/60 dark:hover:text-white/70 dark:hover:text-white/80 dark:hover:text-white/90 dark:text-white/30 dark:text-white/50 dark:text-white/70 dark:text-white/80 dark:placeholder:text-white/50 dark:bg-white/[0.02] dark:bg-white/[0.03] dark:border-white/10 dark:border-white/20");
 
 /* =============================================================================
    FairGambling design tokens — ported from reference stylesheet
@@ -247,6 +261,8 @@
 }
 
 @theme inline {
+  --color-white: #fff;
+  --color-black: #000;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);

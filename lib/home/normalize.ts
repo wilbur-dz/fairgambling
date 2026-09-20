@@ -324,7 +324,7 @@ export function normalizeCodeDrop(
     code,
     casinoName,
     casinoSlug,
-    casinoLogoUrl: asOptionalString(raw.casinoLogoUrl),
+    casinoLogoUrl: `/logos/codebanners/${casinoSlug}.png`,
     offerTitle: asString(raw.offerTitle) || formatCodeBonusTitle(codeValue),
     offerIcon: asString(raw.offerIcon, "🎁") || "🎁",
     totalClaims,
