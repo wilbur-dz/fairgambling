@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Saved reference site dump (not app source):
+    "FairGambling — Crypto Casino Transparency & Rewards_files/**",
   ]),
 ]);
 
