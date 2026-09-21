@@ -1,5 +1,9 @@
-import { PagePlaceholder } from "@/components/layout/page-placeholder";
+import { StakeStatsView } from "@/components/stake-stats/stake-stats-view";
 
-export default function Page() {
-  return <PagePlaceholder title="My Stake Stats" />;
+/**
+ * My Stake Stats — main content from mock/8.
+ * Bet Analyzer (JSON) + P&L Calculator (CSV); all client-side.
+ */
+export default function StakeStatsPage() {
+  return <StakeStatsView />;
 }

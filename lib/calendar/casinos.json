@@ -1,0 +1,1699 @@
+{
+  "generatedAt": "2026-09-20T11:19:51.931Z",
+  "casinos": [
+    {
+      "id": "leaderboard",
+      "name": "Leaderboard",
+      "slug": "leaderboard",
+      "includedInCalendar": true,
+      "isLeaderboard": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 17,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false,
+          "note": "FG weekly leaderboard reset"
+        }
+      ]
+    },
+    {
+      "id": "stake",
+      "name": "Stake",
+      "slug": "stake",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "pre_monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": true,
+          "experimental": false,
+          "note": "pre-monthly — between 1st and 15th of the month"
+        },
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 6
+          },
+          "hour": 12,
+          "minute": 30,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 15
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": true,
+          "experimental": false,
+          "note": "monthly — around 15th of the month"
+        },
+        {
+          "type": "post_monthly",
+          "recurrence": {
+            "kind": "monthly_last_day"
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": true,
+          "experimental": false,
+          "note": "post-monthly — between 15th and last day (players get pre OR post, not both)"
+        }
+      ]
+    },
+    {
+      "id": "shuffle",
+      "name": "Shuffle",
+      "slug": "shuffle",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 4
+          },
+          "hour": 11,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "pre_monthly",
+          "recurrence": null,
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": true,
+          "note": "pre-monthly — one week before the monthly bonus"
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_nth_weekday",
+            "nth": 1,
+            "weekday": 5
+          },
+          "hour": 12,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "roobet",
+      "name": "Roobet",
+      "slug": "roobet",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 6
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "bcgame",
+      "name": "BC.Game",
+      "slug": "bcgame",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 15
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "rollbit",
+      "name": "Rollbit",
+      "slug": "rollbit",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 0
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "gamdom",
+      "name": "Gamdom",
+      "slug": "gamdom",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "1win",
+      "name": "1win",
+      "slug": "1win",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 6
+          },
+          "hour": 7,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": true,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "rainbet",
+      "name": "Rainbet",
+      "slug": "rainbet",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 6
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "pre_monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 16
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_last_day"
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "500casino",
+      "name": "500 Casino",
+      "slug": "500casino",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false,
+          "note": "weekly — Friday around morning (no fixed time)"
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 15
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false,
+          "note": "monthly — 15th around morning (no fixed time)"
+        }
+      ]
+    },
+    {
+      "id": "winna",
+      "name": "Winna",
+      "slug": "winna",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 18,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "pre_monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 25
+          },
+          "hour": 18,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 18,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "thrill",
+      "name": "Thrill",
+      "slug": "thrill",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 13,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 15
+          },
+          "hour": 13,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": true,
+          "experimental": false,
+          "note": "monthly — around 15th 13:00"
+        }
+      ]
+    },
+    {
+      "id": "betfury",
+      "name": "Betfury",
+      "slug": "betfury",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 6
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "razed",
+      "name": "Razed",
+      "slug": "razed",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 8,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 15
+          },
+          "hour": 8,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "yeet",
+      "name": "Yeet",
+      "slug": "yeet",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 4
+          },
+          "hour": 12,
+          "minute": 30,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_nth_weekday",
+            "nth": 2,
+            "weekday": 4
+          },
+          "hour": 12,
+          "minute": 30,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "solcasino",
+      "name": "Solcasino",
+      "slug": "solcasino",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 0
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "duelbits",
+      "name": "Duelbits",
+      "slug": "duelbits",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "whaleio",
+      "name": "Whale.io",
+      "slug": "whaleio",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 7,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": true,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "metawin",
+      "name": "MetaWin",
+      "slug": "metawin",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 12,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "goated",
+      "name": "Goated",
+      "slug": "goated",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 4
+          },
+          "hour": 0,
+          "minute": 10,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 10,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "top_monthly",
+          "recurrence": null,
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": true,
+          "note": "top-monthly — drops up to 72h after the monthly bonus"
+        }
+      ]
+    },
+    {
+      "id": "chipsgg",
+      "name": "Chips.gg",
+      "slug": "chipsgg",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": null,
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": true,
+          "note": "monthly — drops every 28 days"
+        }
+      ]
+    },
+    {
+      "id": "gamba",
+      "name": "Gamba",
+      "slug": "gamba",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 6
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_nth_weekday",
+            "nth": 1,
+            "weekday": 6
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "dicey",
+      "name": "Dicey",
+      "slug": "dicey",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "acebet",
+      "name": "Acebet",
+      "slug": "acebet",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": null,
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": true,
+          "note": "weekly — every 7 days from the moment you open the account"
+        },
+        {
+          "type": "monthly",
+          "recurrence": null,
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": true,
+          "note": "monthly — every 30 days from the moment you open the account"
+        },
+        {
+          "type": "pre_monthly",
+          "recurrence": null,
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": true,
+          "note": "pre-monthly — every 7 days from the moment you reach Silver I"
+        }
+      ]
+    },
+    {
+      "id": "degen",
+      "name": "Degen",
+      "slug": "degen",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "cloudbet",
+      "name": "Cloudbet",
+      "slug": "cloudbet",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "shock",
+      "name": "Shock",
+      "slug": "shock",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 17,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 10,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "toshibet",
+      "name": "Toshibet",
+      "slug": "toshibet",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "qzino",
+      "name": "Qzino",
+      "slug": "qzino",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 0
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "wagercom",
+      "name": "Wager.com",
+      "slug": "wagercom",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 6
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": true,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": true,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "bluff",
+      "name": "Bluff",
+      "slug": "bluff",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "jackpotbet",
+      "name": "Jackpotbet",
+      "slug": "jackpotbet",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 4
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false,
+          "note": "weekly — Thursday evening (no fixed time)"
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 15
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": true,
+          "experimental": false,
+          "note": "monthly — around 15th"
+        }
+      ]
+    },
+    {
+      "id": "housebets",
+      "name": "Housebets",
+      "slug": "housebets",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 4
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "cybet",
+      "name": "Cybet",
+      "slug": "cybet",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 6
+          },
+          "hour": 5,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 5
+          },
+          "hour": 5,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "coinsgame",
+      "name": "Coins.game",
+      "slug": "coinsgame",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 17,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 15
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "luckycoin",
+      "name": "Luckycoin",
+      "slug": "luckycoin",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": true,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "damble",
+      "name": "Damble",
+      "slug": "damble",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "degencity",
+      "name": "Degencity",
+      "slug": "degencity",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 0
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "blockbet",
+      "name": "Blockbet",
+      "slug": "blockbet",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 1,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 1,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "bethog",
+      "name": "Bethog",
+      "slug": "bethog",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 4,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 4,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "betplayio",
+      "name": "Betplay.io",
+      "slug": "betplayio",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 4
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": true,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "bitfortune",
+      "name": "Bitfortune",
+      "slug": "bitfortune",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": true,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": true,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "bitsler",
+      "name": "Bitsler",
+      "slug": "bitsler",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": null,
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": true,
+          "note": "monthly — releases every 4 weeks (28 days)"
+        }
+      ]
+    },
+    {
+      "id": "bitstarz",
+      "name": "BitStarz",
+      "slug": "bitstarz",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 14,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": true,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "cooked",
+      "name": "Cooked",
+      "slug": "cooked",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false,
+          "note": "weekly excluded (no fixed day, activity-based); monthly kept"
+        }
+      ]
+    },
+    {
+      "id": "duckdice",
+      "name": "DuckDice",
+      "slug": "duckdice",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 13,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 7
+          },
+          "hour": 13,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "dustbit",
+      "name": "Dustbit",
+      "slug": "dustbit",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "winz",
+      "name": "Winz",
+      "slug": "winz",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": false,
+          "cashback": true,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "spinio",
+      "name": "Spin.io",
+      "slug": "spinio",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 4
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "wildio",
+      "name": "Wild.io",
+      "slug": "wildio",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 0
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": true,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_day",
+            "day": 1
+          },
+          "hour": 0,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    },
+    {
+      "id": "rollify",
+      "name": "Rollify",
+      "slug": "rollify",
+      "includedInCalendar": true,
+      "rules": [
+        {
+          "type": "weekly",
+          "recurrence": {
+            "kind": "weekly",
+            "weekday": 5
+          },
+          "hour": 11,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        },
+        {
+          "type": "monthly",
+          "recurrence": {
+            "kind": "monthly_nth_weekday",
+            "nth": -1,
+            "weekday": 6
+          },
+          "hour": 11,
+          "minute": 0,
+          "hasFixedTime": true,
+          "cashback": false,
+          "approximate": false,
+          "experimental": false
+        }
+      ]
+    }
+  ]
+}

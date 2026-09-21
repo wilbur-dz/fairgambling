@@ -1,5 +1,6 @@
-import { PagePlaceholder } from "@/components/layout/page-placeholder";
+import { HighrollerView } from "@/components/highroller-club/highroller-view";
 
-export default function Page() {
-  return <PagePlaceholder title="High Roller Club" />;
+/** High Roller Club landing — static marketing page from mock/5. */
+export default function HighrollerClubPage() {
+  return <HighrollerView />;
 }
