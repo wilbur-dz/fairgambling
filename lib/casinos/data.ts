@@ -34,38 +34,54 @@ export type CasinoMetaOverview = {
   hasCodeFeed?: boolean;
   provablyFair?: string | boolean;
   bonusRating?: number;
+  supportedChains?: string[];
+  supportedCoins?: string[];
+};
+
+/** Nested meta blobs used by ranking + compare (API shape varies). */
+export type CasinoMetaFieldMap = Record<string, unknown>;
+
+export type CasinoMetaProviderGame = {
+  name?: string;
+  rtp?: number | string | null;
+  maxBet?: number | string | null;
+};
+
+export type CasinoMetaProvider = {
+  id: string;
+  name?: string;
+  games?: CasinoMetaProviderGame[];
+};
+
+export type CasinoMetaHouseGame = {
+  slug?: string;
+  name?: string;
+  imageUrl?: string | null;
+  rtp?: number | null;
+  houseEdge?: number | null;
+  maxMultiplier?: number | null;
 };
 
 export type CasinoMeta = {
   overview?: CasinoMetaOverview;
-  fairnessRtp?: {
+  fairnessRtp?: CasinoMetaFieldMap & {
     provablyFairSystem?: string;
     avgHouseGameRtp?: number;
   };
-  compliance?: {
+  financial?: CasinoMetaFieldMap;
+  bonus?: CasinoMetaFieldMap;
+  support?: CasinoMetaFieldMap;
+  compliance?: CasinoMetaFieldMap & {
     kycLevel?: string;
     restrictedCountries?: string[];
   };
-  games?: {
-    providers?: Array<{
-      id: string;
-      name?: string;
-      games?: Array<{
-        name?: string;
-        rtp?: number | string | null;
-        maxBet?: number | string | null;
-      }>;
-    }>;
-    houseGames?: Array<{
-      slug?: string;
-      name?: string;
-      rtp?: number | null;
-      houseEdge?: number | null;
-      maxMultiplier?: number | null;
-    }>;
-  };
-  responsibleGambling?: {
+  responsibleGambling?: CasinoMetaFieldMap & {
     selfExclusion?: string;
+  };
+  security?: CasinoMetaFieldMap;
+  games?: {
+    providers?: CasinoMetaProvider[];
+    houseGames?: CasinoMetaHouseGame[];
   };
 };
 
@@ -92,6 +108,7 @@ export type CasinosBundle = {
 
 export type RatingCategory = {
   score: number;
+  pending?: boolean;
   subcategories?: Array<{
     name: string;
     score: number;
@@ -111,6 +128,12 @@ export type CasinoRatingDetail = {
   raffleSize30d?: string | null;
   avgHouseEdge?: number | null;
   provablyFair?: string | null;
+  sportsEdgeVig?: number | null;
+  trustpilot?: { score: number; reviewCount: number } | null;
+  casinoGuruFeedback?: string | null;
+  casinoGuruReviewCount?: number | null;
+  casinoGuruUnresolved?: number | null;
+  bitcointalkUnresolved?: number | null;
   categories: Partial<Record<RatingCategoryKey, RatingCategory>>;
 };
 
@@ -861,9 +884,58 @@ function mockCasino(
         provablyFair: pf,
         bonusRating: 7,
       },
-      fairnessRtp: { provablyFairSystem: pf, avgHouseGameRtp: 98 },
-      compliance: { kycLevel: kyc, restrictedCountries: [] },
-      responsibleGambling: { selfExclusion: "Standard" },
+      fairnessRtp: {
+        provablyFairSystem: pf,
+        avgHouseGameRtp: 98,
+        verificationTool: true,
+        seedChange: true,
+        seedControl: hasSeedAnalyzer,
+        transparencyLink: true,
+        rtpDisclosure: true,
+        rtpSlotConsistency: true,
+      },
+      financial: {
+        minimumDeposit: "$10",
+        minimumWithdrawal: "$20",
+        fees: "Network only",
+        cancelWithdraw: true,
+        withdrawalSpeed: "Instant–1h",
+        withdrawalLimit: false,
+        publicHotWallet: slug === "stake",
+        proofOfReserves: slug === "stake" || slug === "shuffle",
+      },
+      bonus: {
+        instantRakeback: true,
+        dailyBonus: true,
+        weeklyBonus: true,
+        monthlyBonus: slug !== "bcgame",
+      },
+      support: {
+        liveChat: true,
+        responseTime: "< 2 min",
+        availability247: true,
+        languages: ["EN", "ES", "DE"],
+        humanOrBot: "Human",
+      },
+      security: {
+        twoFactor: true,
+        accountNotifications: true,
+        withdrawalConfirmation2fa: true,
+      },
+      compliance: {
+        kycLevel: kyc,
+        restrictedCountries: [],
+        licenseDetails: license,
+        licenseVerificationLink: true,
+        geoBlocking: true,
+        idVerification: kyc,
+        wagerBeforeWithdrawal: false,
+      },
+      responsibleGambling: {
+        selfExclusion: "Standard",
+        accessToStats: true,
+        gamblingLimits: true,
+      },
       games: {
         providers: [
           {

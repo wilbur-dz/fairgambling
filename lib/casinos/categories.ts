@@ -153,6 +153,24 @@ export const LICENSE_IMAGES: Record<string, string> = {
   uk: "/logos/licenses/uk.svg",
 };
 
+const LICENSE_LOGO_BY_LABEL: Record<string, string> = {
+  curacao: LICENSE_IMAGES.curacao,
+  "curaçao": LICENSE_IMAGES.curacao,
+  anjouan: LICENSE_IMAGES.anjouan,
+  tobique: LICENSE_IMAGES.tobique,
+  malta: LICENSE_IMAGES.malta,
+  uk: LICENSE_IMAGES.uk,
+};
+
+/** Port of reference `getLicenseLogo` (503460). */
+export function getLicenseLogo(
+  licenseLabel: string | null | undefined,
+): string | null {
+  if (!licenseLabel) return null;
+  const key = licenseLabel.trim().toLowerCase();
+  return LICENSE_LOGO_BY_LABEL[key] ?? LICENSE_IMAGES[key] ?? null;
+}
+
 /** Slugs that show a Code Feed link in overview. */
 export const CODE_FEED_SLUGS = new Set([
   "stake",

@@ -1,0 +1,1723 @@
+{
+  "stake": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$119.71",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "3.5%",
+          "amount": "$8.75"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "6.5%",
+          "amount": "$16.25"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "25%",
+          "amount": "$62.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "7.2%",
+          "amount": "$18.00"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "42.2%",
+          "amount": "$105.50"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$500",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "3.5%",
+          "amount": "$8.75"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "6.5%",
+          "amount": "$16.25"
+        },
+        {
+          "label": "Weekly Lossback",
+          "pct": "6%",
+          "amount": "$30.00"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "25%",
+          "amount": "$62.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "7.2%",
+          "amount": "$18.00"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "42.2%",
+          "amount": "$105.50"
+        },
+        {
+          "label": "Lossback",
+          "pct": "6%",
+          "amount": "$30.00"
+        },
+        {
+          "label": "Total",
+          "pct": "54.2%",
+          "amount": "$135.50"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $105.50 in rakeback (42.2% of theoretical loss). The losing account additionally received $30 in weekly lossback, recovering $135.50 total (54.2% of theoretical loss)."
+  },
+  "shuffle": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$11",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "4.75%",
+          "amount": "$11.88"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "2%",
+          "amount": "$5.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "9%",
+          "amount": "$22.50"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "6%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "11.25%",
+          "amount": "$23.40"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "31.1%",
+          "amount": "$77.78"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$500",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "4.75%",
+          "amount": "$11.88"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "2%",
+          "amount": "$5.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "9%",
+          "amount": "$22.50"
+        },
+        {
+          "label": "Weekly Lossback",
+          "pct": "5.5%",
+          "amount": "$27.50"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "6%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Monthly Lossback",
+          "pct": "3.2%",
+          "amount": "$16.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "11.25%",
+          "amount": "$23.40"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "31.1%",
+          "amount": "$77.78"
+        },
+        {
+          "label": "Lossback",
+          "pct": "8.7%",
+          "amount": "$43.50"
+        },
+        {
+          "label": "Total",
+          "pct": "48.5%",
+          "amount": "$121.28"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $77.78 in rakeback (31.1% of theoretical loss). The losing account additionally received $43.50 in lossback, recovering $121.28 total (48.5% of theoretical loss)."
+  },
+  "thrill": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$28.17",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "4%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "6.5%",
+          "amount": "$16.25"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "8.5%",
+          "amount": "$21.25"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "12.16%",
+          "amount": "$30.40"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "36.2%",
+          "amount": "$90.40"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$486.45",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "4%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "6.5%",
+          "amount": "$16.25"
+        },
+        {
+          "label": "Weekly Lossback",
+          "pct": "2%",
+          "amount": "$9.72"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "8.5%",
+          "amount": "$21.25"
+        },
+        {
+          "label": "Monthly Lossback",
+          "pct": "2.3%",
+          "amount": "$11.41"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "12.16%",
+          "amount": "$30.40"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "36.2%",
+          "amount": "$90.40"
+        },
+        {
+          "label": "Lossback",
+          "pct": "4.3%",
+          "amount": "$21.13"
+        },
+        {
+          "label": "Total",
+          "pct": "44.6%",
+          "amount": "$111.53"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $90.40 in rakeback (36.2% of theoretical loss). The losing account additionally received $21.13 in lossback, recovering $111.53 total (44.6% of theoretical loss)."
+  },
+  "razed": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$40.66",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "6%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "2.3%",
+          "amount": "$5.75"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "3%",
+          "amount": "$7.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "16%",
+          "amount": "$40.00"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "27.3%",
+          "amount": "$68.25"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$500",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "6%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "2.3%",
+          "amount": "$5.75"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "3%",
+          "amount": "$7.50"
+        },
+        {
+          "label": "Monthly Lossback",
+          "pct": "3%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "16%",
+          "amount": "$40.00"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "27.3%",
+          "amount": "$68.25"
+        },
+        {
+          "label": "Lossback",
+          "pct": "3%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Total",
+          "pct": "33.3%",
+          "amount": "$83.25"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $68.25 in rakeback (27.3% of theoretical loss). The losing account additionally received $15 in monthly lossback, recovering $83.25 total (33.3% of theoretical loss)."
+  },
+  "roobet": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$23",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "4.95%",
+          "amount": "$12.38"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "2%",
+          "amount": "$5.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "2%",
+          "amount": "$5.00"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "2%",
+          "amount": "$5.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "2.96%",
+          "amount": "$7.40"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "13.91%",
+          "amount": "$34.78"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$271",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "4.95%",
+          "amount": "$12.38"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "2%",
+          "amount": "$5.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "2%",
+          "amount": "$5.00"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "2%",
+          "amount": "$5.00"
+        },
+        {
+          "label": "Monthly Lossback",
+          "pct": "2.31%",
+          "amount": "$5.77"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "2.96%",
+          "amount": "$7.40"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "13.91%",
+          "amount": "$34.78"
+        },
+        {
+          "label": "Lossback",
+          "pct": "2.31%",
+          "amount": "$5.77"
+        },
+        {
+          "label": "Total",
+          "pct": "16.22%",
+          "amount": "$40.55"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $34.78 in rakeback (13.91% of theoretical loss). The losing account additionally received $5.77 in monthly lossback (the differential vs the profit account's monthly), recovering $40.55 total (16.22% of theoretical loss)."
+  },
+  "betfury": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$11.25",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "2%",
+          "amount": "$12.49"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "0.22%",
+          "amount": "$1.38"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "0.14%",
+          "amount": "$0.90"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "7.2%",
+          "amount": "$18.00"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "13.1%",
+          "amount": "$32.77"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$404.57",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "2%",
+          "amount": "$12.49"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "0.22%",
+          "amount": "$1.38"
+        },
+        {
+          "label": "Weekly Lossback",
+          "pct": "6.2%",
+          "amount": "$25.00"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "0.14%",
+          "amount": "$0.90"
+        },
+        {
+          "label": "Monthly Lossback",
+          "pct": "1.2%",
+          "amount": "$5.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "7.2%",
+          "amount": "$18.00"
+        },
+        {
+          "label": "Cashback",
+          "pct": "6.2%",
+          "amount": "$25.10"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "13.1%",
+          "amount": "$32.77"
+        },
+        {
+          "label": "Lossback",
+          "pct": "7.4%",
+          "amount": "$30.00"
+        },
+        {
+          "label": "Cashback",
+          "pct": "6.2%",
+          "amount": "$25.10"
+        },
+        {
+          "label": "Total",
+          "pct": "35.1%",
+          "amount": "$87.87"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $32.77 in rakeback (13.1% of theoretical loss). The losing account received $30 in lossback plus $25.10 cashback, recovering $87.87 total (35.1% of theoretical loss).",
+    "note": "Cashback 2\u00d7/week (Tue + Fri). Weekly/Monthly in bonus calendar with 3-day vesting."
+  },
+  "rainbet": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$30.30",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5.22%",
+          "amount": "$13.05"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "0.04%",
+          "amount": "$0.10"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "1%",
+          "amount": "$2.50"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "1%",
+          "amount": "$2.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "4.8%",
+          "amount": "$12.00"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "12.1%",
+          "amount": "$30.15"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$500",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5.22%",
+          "amount": "$13.05"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "0.04%",
+          "amount": "$0.10"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "1%",
+          "amount": "$2.50"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "1%",
+          "amount": "$2.50"
+        },
+        {
+          "label": "Monthly Lossback",
+          "pct": "2%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "4.8%",
+          "amount": "$12.00"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "12.1%",
+          "amount": "$30.15"
+        },
+        {
+          "label": "Lossback",
+          "pct": "2%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Total",
+          "pct": "16.1%",
+          "amount": "$40.15"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $30.15 in rakeback (12.1% of theoretical loss). The losing account additionally received $10 in monthly lossback, recovering $40.15 total (16.1% of theoretical loss).",
+    "note": "Instant Rakeback tested without the 15% signup boost. Loss account extrapolated from $11.6k wager."
+  },
+  "winna": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$242",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "9%",
+          "amount": "$22.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "14.2%",
+          "amount": "$35.50"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "33.2%",
+          "amount": "$83.00"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$387",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Weekly Lossback",
+          "pct": "5%",
+          "amount": "$19.35"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "9%",
+          "amount": "$22.50"
+        },
+        {
+          "label": "Monthly Lossback",
+          "pct": "5%",
+          "amount": "$19.35"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "14.2%",
+          "amount": "$35.50"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "33.2%",
+          "amount": "$83.00"
+        },
+        {
+          "label": "Lossback",
+          "pct": "10%",
+          "amount": "$38.70"
+        },
+        {
+          "label": "Total",
+          "pct": "48.7%",
+          "amount": "$121.70"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $83 in rakeback (33.2% of theoretical loss). The losing account additionally received $38.70 in lossback, recovering $121.70 total (48.7% of theoretical loss)."
+  },
+  "yeet": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$60.23",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": ""
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "2.55%",
+          "amount": ""
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": ""
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "23.2%",
+          "amount": "$58"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "35.75%",
+          "amount": ""
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$500",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": ""
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "2.55%",
+          "amount": ""
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": ""
+        },
+        {
+          "label": "Weekly Lossback",
+          "pct": "2%",
+          "amount": ""
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "23.2%",
+          "amount": "$58"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "35.75%",
+          "amount": ""
+        },
+        {
+          "label": "Lossback",
+          "pct": "2%",
+          "amount": ""
+        }
+      ]
+    }
+  },
+  "solcasino": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$1,194",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "6%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "7%",
+          "amount": "$17.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "3.72%",
+          "amount": "$9.31"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "21.7%",
+          "amount": "$54.31"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$412",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "6%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "7%",
+          "amount": "$17.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "3.72%",
+          "amount": "$9.31"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "21.7%",
+          "amount": "$54.31"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $54.31 in rakeback (21.7% of theoretical loss). No lossback paid out on either account.",
+    "note": "Weekly and Monthly lossback only pay at VIP level 15+ with a negative P&L \u2014 neither account qualified."
+  },
+  "500casino": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$482.98",
+      "bonuses": [
+        {
+          "label": "Instant + Level Up",
+          "pct": "33.28%",
+          "amount": "$83.21"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "33.3%",
+          "amount": "$83.21"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$500",
+      "bonuses": [
+        {
+          "label": "Instant + Level Up",
+          "pct": "33.28%",
+          "amount": "$83.21"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "33.3%",
+          "amount": "$83.21"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $83.21 (33.3% of theoretical loss) through the combined Instant Rakeback + Level Up Bonus.",
+    "note": "Instant + Level Up combined. Weekly/Monthly not tested \u2014 dice only contributes 25% to wager progress."
+  },
+  "gamdom": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$128.42",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "2.5%",
+          "amount": "$5.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "5%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "5.1%",
+          "amount": "$10.20"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "17.6%",
+          "amount": "$35.20"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$478",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "2.5%",
+          "amount": "$5.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "5%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "5.1%",
+          "amount": "$10.20"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "17.6%",
+          "amount": "$35.20"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $35.20 in rakeback (17.6% of theoretical loss). No lossback paid out.",
+    "note": "First 5k of wager landed on 0% RTP games (no progress). Remaining 20k on 1% edge \u2192 effective theoretical loss = $200."
+  },
+  "bcgame": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$87",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "10%",
+          "amount": "$50.00"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "10%",
+          "amount": "$50.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$25.00"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "5%",
+          "amount": "$25.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "2.4%",
+          "amount": "$12.00"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "32.4%",
+          "amount": "$162.00"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$467",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "10%",
+          "amount": "$50.00"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "10%",
+          "amount": "$50.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$25.00"
+        },
+        {
+          "label": "Weekly Lossback",
+          "pct": "2%",
+          "amount": "$9.34"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "5%",
+          "amount": "$25.00"
+        },
+        {
+          "label": "Monthly Lossback",
+          "pct": "1%",
+          "amount": "$4.67"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "2.4%",
+          "amount": "$12.00"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "32.4%",
+          "amount": "$162.00"
+        },
+        {
+          "label": "Lossback",
+          "pct": "3%",
+          "amount": "$14.01"
+        },
+        {
+          "label": "Total",
+          "pct": "35.2%",
+          "amount": "$176.01"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $162 in rakeback (32.4% of theoretical loss). The losing account additionally received $14.01 in lossback, recovering $176.01 total (35.2% of theoretical loss).",
+    "note": "Played on 2% house-edge games \u2192 theoretical loss = $500."
+  },
+  "rollbit": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$53",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": "$25.00"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "3%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$25.00"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "4%",
+          "amount": "$20.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "12.8%",
+          "amount": "$64.00"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "29.8%",
+          "amount": "$149.00"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$488",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": "$25.00"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "3%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$25.00"
+        },
+        {
+          "label": "Weekly Lossback",
+          "pct": "2%",
+          "amount": "$9.76"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "4%",
+          "amount": "$20.00"
+        },
+        {
+          "label": "Monthly Lossback",
+          "pct": "2%",
+          "amount": "$9.76"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "12.8%",
+          "amount": "$64.00"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "29.8%",
+          "amount": "$149.00"
+        },
+        {
+          "label": "Lossback",
+          "pct": "4%",
+          "amount": "$19.52"
+        },
+        {
+          "label": "Total",
+          "pct": "33.7%",
+          "amount": "$168.52"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $149 in rakeback (29.8% of theoretical loss). The losing account additionally received $19.52 in lossback, recovering $168.52 total (33.7% of theoretical loss).",
+    "note": "Played on 2% house-edge games \u2192 theoretical loss = $500."
+  },
+  "duelbits": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$112",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "4%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "10%",
+          "amount": "$25.00"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "29%",
+          "amount": "$72.50"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$463",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Daily Bonus",
+          "pct": "4%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "10%",
+          "amount": "$25.00"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "29%",
+          "amount": "$72.50"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $72.50 in rakeback (29% of theoretical loss). No lossback paid out."
+  },
+  "whaleio": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$31",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "4%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "3%",
+          "amount": "$7.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "7.5%",
+          "amount": "$18.75"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "19.5%",
+          "amount": "$48.75"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$500",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "4%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "3%",
+          "amount": "$7.50"
+        },
+        {
+          "label": "Monthly Lossback",
+          "pct": "3%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "7.5%",
+          "amount": "$18.75"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "19.5%",
+          "amount": "$48.75"
+        },
+        {
+          "label": "Lossback",
+          "pct": "3%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Total",
+          "pct": "25.5%",
+          "amount": "$63.75"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $48.75 in rakeback (19.5% of theoretical loss). The losing account additionally received $15 in monthly lossback, recovering $63.75 total (25.5% of theoretical loss)."
+  },
+  "metawin": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$18",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "15%",
+          "amount": "$37.50"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$495",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Monthly Lossback",
+          "pct": "5%",
+          "amount": "$24.75"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "15%",
+          "amount": "$37.50"
+        },
+        {
+          "label": "Lossback",
+          "pct": "5%",
+          "amount": "$24.75"
+        },
+        {
+          "label": "Total",
+          "pct": "24.9%",
+          "amount": "$62.25"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $37.50 in rakeback (15% of theoretical loss). The losing account additionally received $24.75 in monthly lossback, recovering $62.25 total (24.9% of theoretical loss)."
+  },
+  "goated": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$66",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "6%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "6%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "4%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "13.5%",
+          "amount": "$33.75"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "29.5%",
+          "amount": "$73.75"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$478",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "6%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "6%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Weekly Lossback",
+          "pct": "3%",
+          "amount": "$14.34"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "4%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "13.5%",
+          "amount": "$33.75"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "29.5%",
+          "amount": "$73.75"
+        },
+        {
+          "label": "Lossback",
+          "pct": "3%",
+          "amount": "$14.34"
+        },
+        {
+          "label": "Total",
+          "pct": "35.2%",
+          "amount": "$88.09"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $73.75 in rakeback (29.5% of theoretical loss). The losing account additionally received $14.34 in weekly lossback, recovering $88.09 total (35.2% of theoretical loss)."
+  },
+  "chipsgg": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$42",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "4%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "9.5%",
+          "amount": "$23.75"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "23.5%",
+          "amount": "$58.75"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$500",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "4%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Weekly Lossback",
+          "pct": "2%",
+          "amount": "$10.00"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Monthly Lossback",
+          "pct": "1%",
+          "amount": "$5.00"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "9.5%",
+          "amount": "$23.75"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "23.5%",
+          "amount": "$58.75"
+        },
+        {
+          "label": "Lossback",
+          "pct": "3%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Total",
+          "pct": "29.5%",
+          "amount": "$73.75"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $58.75 in rakeback (23.5% of theoretical loss). The losing account additionally received $15 in lossback, recovering $73.75 total (29.5% of theoretical loss)."
+  },
+  "gamba": {
+    "type": "full",
+    "deposit": "$500",
+    "wager": "$25,000",
+    "profit": {
+      "balance": "+$78",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "6%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "7.5%",
+          "amount": "$18.75"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "14.7%",
+          "amount": "$36.75"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Total Rakeback",
+          "pct": "33.2%",
+          "amount": "$83.00"
+        }
+      ]
+    },
+    "loss": {
+      "balance": "-$491",
+      "bonuses": [
+        {
+          "label": "Instant Rakeback",
+          "pct": "6%",
+          "amount": "$15.00"
+        },
+        {
+          "label": "Weekly Bonus",
+          "pct": "7.5%",
+          "amount": "$18.75"
+        },
+        {
+          "label": "Weekly Lossback",
+          "pct": "5.8%",
+          "amount": "$28.48"
+        },
+        {
+          "label": "Monthly Bonus",
+          "pct": "5%",
+          "amount": "$12.50"
+        },
+        {
+          "label": "Level Up Bonus",
+          "pct": "14.7%",
+          "amount": "$36.75"
+        }
+      ],
+      "totals": [
+        {
+          "label": "Rakeback",
+          "pct": "33.2%",
+          "amount": "$83.00"
+        },
+        {
+          "label": "Lossback",
+          "pct": "5.8%",
+          "amount": "$28.48"
+        },
+        {
+          "label": "Total",
+          "pct": "44.6%",
+          "amount": "$111.48"
+        }
+      ]
+    },
+    "summary": "Both accounts earned $83 in rakeback (33.2% of theoretical loss). The losing account additionally received $28.48 in weekly lossback, recovering $111.48 total (44.6% of theoretical loss)."
+  },
+  "duel": {
+    "type": "none",
+    "note": "50% instant rakeback on slots.",
+    "hideComingSoon": true
+  }
+}

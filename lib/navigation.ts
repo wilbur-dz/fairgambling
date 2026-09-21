@@ -428,6 +428,13 @@ export function isPathActive(href: string, pathname: string): boolean {
 
 export function getPageTitle(pathname: string): string {
   if (pathname === "/") return "Home";
+  if (pathname === "/complaints") return "Resolution Hub";
+  if (pathname === "/streamers" || pathname.startsWith("/streamers/")) {
+    return "Streamers";
+  }
+  if (pathname === "/complaints/rules") return "Resolution Rules";
+  if (pathname === "/complaints/new") return "File a Complaint";
+  if (/^\/complaints\/[0-9]+$/.test(pathname)) return "Complaint";
   if (pathname === "/casinos" || pathname.startsWith("/casinos/")) {
     return "Casinos";
   }
@@ -436,7 +443,15 @@ export function getPageTitle(pathname: string): string {
     (a, b) => b.href.length - a.href.length,
   );
   const match = ranked.find((route) => isPathActive(route.href, pathname));
-  return match?.label ?? "FairGambling";
+  if (match) return match.label;
+
+  // Single-segment casino detail pages (`/stake`, `/roobet`, …)
+  const parts = pathname.split("/").filter(Boolean);
+  if (parts.length === 1 && /^[a-z0-9][a-z0-9-]{0,63}$/i.test(parts[0])) {
+    return "Casino Overview";
+  }
+
+  return "FairGambling";
 }
 
 export function sectionHasActivePath(

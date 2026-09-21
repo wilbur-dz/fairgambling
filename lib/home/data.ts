@@ -460,9 +460,6 @@ export const MOCK_COMPLAINT_STATS: ComplaintGlobalStats = {
   avgResolutionHours: 18,
 };
 
-/** Reference feature flag `SHOW_COMPLAINT_STATS` (home complaints metric tiles). */
-export const SHOW_COMPLAINT_STATS = true;
-
 /** Avatar strip brands shown on the Complaints home card (`H`). */
 export const COMPLAINT_CASINO_AVATARS = [
   "Stake",

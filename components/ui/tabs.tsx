@@ -19,6 +19,12 @@ type TabSizeMetrics = {
   containerRadius: number;
 };
 
+/** Nav tabs on /streamers — matches reference `NAV_TABS_SIZE_CONFIG`. */
+export const NAV_TABS_SIZE_CONFIG: Partial<TabSizeMetrics> = {
+  paddingY: 9,
+  fontSize: 14,
+};
+
 const SIZE_PRESETS: Record<"sm" | "md" | "lg", TabSizeMetrics> = {
   sm: {
     fontSize: 12,
@@ -51,7 +57,7 @@ const SIZE_PRESETS: Record<"sm" | "md" | "lg", TabSizeMetrics> = {
 
 export type TabItem = {
   id: string;
-  label?: string;
+  label?: ReactNode;
   disabled?: boolean;
   width?: number;
   leftIcon?: ReactNode;

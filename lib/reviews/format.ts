@@ -3,6 +3,10 @@ const CASINO_ROUTE_ALIASES: Record<string, string> = {
   "bc-game": "bcgame",
   "chips-gg": "chipsgg",
   "whale-io": "whaleio",
+  stakeus: "stake",
+  "stake-us": "stake",
+  shuffleus: "shuffle",
+  "shuffle-us": "shuffle",
 };
 
 export function casinoRouteSlug(slug: string): string {
@@ -10,9 +14,34 @@ export function casinoRouteSlug(slug: string): string {
   return CASINO_ROUTE_ALIASES[key] ?? key;
 }
 
+/** Port of reference `casinoPageHref`. */
+export function casinoPageHref(slug: string): string {
+  return `/${casinoRouteSlug(slug)}`;
+}
+
 export function reviewPermalink(casinoSlug: string, reviewId: string): string {
   if (!casinoSlug || !reviewId) return "/reviews";
   return `/${casinoRouteSlug(casinoSlug)}/reviews?review_id=${reviewId}`;
+}
+
+export function formatVerifiedBadgeText(review: {
+  casinoName?: string | null;
+  isVerified?: boolean;
+  verifiedVipRank?: string | null;
+  verifiedTotalWagered?: string | null;
+}): string {
+  if (!review.isVerified) return "This review is not verified.";
+  const casino = review.casinoName?.trim() || "this casino";
+  const rank = review.verifiedVipRank?.trim();
+  const wager = review.verifiedTotalWagered?.trim();
+  const wagerNum = wager ? parseFloat(wager) : 0;
+  let text = rank
+    ? `Verified ${rank} player on ${casino}`
+    : `Verified player on ${casino}`;
+  if (Number.isFinite(wagerNum) && wagerNum > 0) {
+    text += ` with $${Math.round(wagerNum).toLocaleString("en-US")} wagered`;
+  }
+  return `${text} at the time of the review.`;
 }
 
 export function stripReviewHtml(html: string): string {

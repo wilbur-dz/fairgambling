@@ -1,6 +1,5 @@
 "use client";
 
-import { getPublicApiUrl } from "@/lib/api/config";
 import {
   MOCK_CASINOS_BUNDLE,
   type CasinosBundle,
@@ -21,8 +20,10 @@ function useMockFallback(): boolean {
   return process.env.NEXT_PUBLIC_HOME_API_FALLBACK_MOCK !== "0";
 }
 
+/** Same-origin `/api/*` → Next rewrite proxy (no API host in browser). */
 async function clientJson(path: string, signal?: AbortSignal): Promise<unknown> {
-  const res = await fetch(`${getPublicApiUrl()}${path}`, {
+  const url = path.startsWith("/") ? path : `/${path}`;
+  const res = await fetch(url, {
     method: "GET",
     headers: { Accept: "application/json" },
     signal,

@@ -194,6 +194,13 @@ export function normalizeCasinoRatingDetail(
       ? null
       : asNumber(data.totalScore, Number.NaN);
 
+  const trustpilot = isRecord(data.trustpilot)
+    ? {
+        score: asNumber(data.trustpilot.score),
+        reviewCount: asNumber(data.trustpilot.reviewCount),
+      }
+    : null;
+
   return {
     totalScore: totalScore != null && Number.isFinite(totalScore) ? totalScore : null,
     founded: data.founded == null ? null : asNumber(data.founded),
@@ -206,6 +213,23 @@ export function normalizeCasinoRatingDetail(
     avgHouseEdge:
       data.avgHouseEdge == null ? null : asNumber(data.avgHouseEdge),
     provablyFair: asOptionalString(data.provablyFair),
+    sportsEdgeVig:
+      data.sportsEdgeVig == null ? null : asNumber(data.sportsEdgeVig),
+    trustpilot:
+      trustpilot && Number.isFinite(trustpilot.score) ? trustpilot : null,
+    casinoGuruFeedback: asOptionalString(data.casinoGuruFeedback),
+    casinoGuruReviewCount:
+      data.casinoGuruReviewCount == null
+        ? null
+        : asNumber(data.casinoGuruReviewCount),
+    casinoGuruUnresolved:
+      data.casinoGuruUnresolved == null
+        ? null
+        : asNumber(data.casinoGuruUnresolved),
+    bitcointalkUnresolved:
+      data.bitcointalkUnresolved == null
+        ? null
+        : asNumber(data.bitcointalkUnresolved),
     categories,
   };
 }

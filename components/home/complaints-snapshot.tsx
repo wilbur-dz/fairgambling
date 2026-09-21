@@ -10,12 +10,12 @@ import { ClickNav } from "@/components/ui/click-nav";
 import {
   COMPLAINT_CASINO_AVATARS,
   MOCK_COMPLAINT_STATS,
-  SHOW_COMPLAINT_STATS,
   formatAvgResponseHours,
   formatDisputeCount,
   formatFundsRecovered,
   type ComplaintGlobalStats,
 } from "@/lib/home/data";
+import { SHOW_COMPLAINT_STATS } from "@/lib/complaints/flags";
 
 function buildStatItems(stats: ComplaintGlobalStats | null | undefined) {
   const resolutionRate =
