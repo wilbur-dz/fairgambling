@@ -1,5 +1,6 @@
-import { PagePlaceholder } from "@/components/layout/page-placeholder";
+import { BlackjackView } from "@/components/blackjack-trainer/blackjack-view";
 
-export default function Page() {
-  return <PagePlaceholder title="Blackjack Trainer" />;
+/** Blackjack Trainer — interactive basic-strategy practice. */
+export default function BlackjackTrainerPage() {
+  return <BlackjackView />;
 }
